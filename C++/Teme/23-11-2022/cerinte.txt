@@ -1,0 +1,81 @@
+0. Fişierul numere.txt conţine mai multe numere întregi (cel mult 100), fiecare număr
+având cel mult 9 cifre. Se cere să se afişeze pe ecran, despărţite printr-un spaţiu, cele mai mari două valori pare memorate în fişier. Dacă în fişier nu se află memorate două astfel de valori, pe ecran se va afişa valoarea 0.
+a) Descrieţi în limbaj natural o metodă de rezolvare eficientă din punct de vedere al
+gestionării memoriei şi al timpului de executare. 
+b) Scrieţi programul C/C++ corespunzător metodei descrise la punctul a. 
+
+Exemplu: dacă fişierul numere.txt are conţinutul alăturat
+5 10
+3 -77 20
+50 5 0 12 18 30
+se vor afişa pe ecran, nu neapărat în această ordine:
+30 50
+
+1. Fişierul text bac.txt conţine, pe o singură linie, cel mult 1000 de numere naturale nenule cu cel mult 4 cifre fiecare, numerele fiind separate prin câte un spaţiu. Scrieţi un program C/C++ care citeşte de la tastatură un număr natural nenul n (n999) şi numerele din fişierul bac.txt şi care afişează pe ecran, separate prin câte un spaţiu, toate numerele din fişier care sunt divizibile cu n. Dacă fişierul nu conţine niciun astfel de număr, atunci se va afişa pe ecran mesajul NU EXISTA.
+
+Exemplu: dacă fişierul bac.txt conţine numerele: 3 100 40 70 25 5 80 6 3798, pentru n=10 atunci pe ecran se va afişa: 100 40 70 80
+
+2. Scrieţi un program C/C++ care citeşte de la tastatură un număr natural n cu cel mult 8 cifre (n10) şi care creează fişierul text NR.TXT ce conţine numărul n şi toate prefixele nenule ale acestuia, pe o singură linie, separate prin câte un spaţiu, în ordine descrescătoare a valorii lor.
+
+Exemplu: pentru n=10305 fişierul NR.TXT va conţine numerele:
+10305 1030 103 10 1
+
+3. Scrieţi un program C/C++ care citeşte de la tastatură un număr natural n (n≤50) şi care afişează pe prima linie a fişierului BAC.TXT primele n numere pare, pe a doua linie primele n-1 numere pare, ..., pe linia n primul număr par. Numerele vor fi afişate pe fiecare linie în ordine crescătoare şi vor fi separate prin câte un spaţiu. 
+
+Exemplu: dacă n=3 fişierul BAC.TXT va avea conţinutul alăturat.
+0 2 4
+0 2
+0
+
+4. Fişierul BAC.TXT conţine pe prima linie un număr natural n (0<n≤1000) şi pe a doua linie, separate prin câte un spaţiu, n numere naturale nenule (cu cel mult 9 cifre fiecare). Scrieţi un program C/C++ care citeşte toate numerele din fişier şi afişează pe ecran câte numere prime conţine şirul citit de pe a doua linie a fişierului.
+
+Exemplu: dacă fişierul are conţinutul
+5
+12 3 9 7 1
+se va afişa: 2 pentru ca avem  3 7 nr prime
+
+5. Fişierul text BAC.TXT conţine mai multe numere naturale cu cel mult 6 cifre fiecare, câte un număr pe fiecare linie a fişierului. Scrieţi un program C/C++ care afişează pe ecran toate numerele din fişier, în aceeaşi ordine, câte cinci numere pe fiecare linie, separate prin câte un spaţiu, cu excepţia ultimei linii care poate conţine mai puţin de cinci numere.
+
+Exemplu: dacă fişierul are conţinutul alăturat, pe ecran se afişează:
+11 21 30 40 51
+16 17 10 1
+
+6. În fişierul text BAC.IN se găsesc, pe o singură linie, separate prin câte un spaţiu, mai multe numere naturale de cel mult 6 cifre fiecare. Se cere să se determine şi să se afişeze pe ecran ultimul număr impar din fişierul BAC.IN. Dacă în fişier nu există niciun număr impar se va scrie pe ecran mesajul Nu există numere impare.
+Exemplu: dacă fişierul BAC.IN conţine valorile: 12 6 25 68 13 8 24 31 42 se va afişa 31.
+a) Descrieţi în limbaj natural un algoritm eficient, din punct de vedere al spaţiului de
+memorie şi al timpului de executare, pentru rezolvarea acestei probleme, explicând în ce
+constă eficienţa acestuia. 
+b) Scrieţi programul C/C++ corespunzător algoritmului descris.
+
+7. Pe prima linie a fişierului numere.txt sunt memorate cel mult 90 de numere întregi cu cel mult două cifre fiecare, separate prin câte un spaţiu. Scrieţi programul C/C++ care să determine şi să afişeze pe ecran, media aritmetică a numerelor strict pozitive din fişier. Dacă fişierul nu conţine numere strict pozitive se afişează pe ecran mesajul NU EXISTA.
+Exemplu: dacă fişierul numere.txt conţine numerele 6 -26 0 9 -7 se va afişa
+valoarea 7.5.
+
+
+
+8. În fişierul numere.txt sunt memorate cel puţin 4 şi cel mult 90 de numere întregi cu cel mult patru cifre fiecare, separate prin câte un spaţiu. Scrieţi un program C/C++ care
+afişează pe ecran patru numere aflate pe poziţii consecutive în fişier, care sunt în ordine
+strict crescătoare. Dacă există mai multe astfel de secvenţe programul afişează una dintre acestea, iar dacă în fişier nu există astfel de secvenţe se afişează mesajul NU EXISTA.
+
+Exemplu: dacă fişierul numere.txt conţine, în această ordine, numerele 60 12 15 25
+110 45 25 
+se vor afişa numerele 12 15 25 110.
+
+9. În fişierul numere.txt sunt memorate mai multe numere reale separate prin câte un spaţiu. Scrieţi un program C/C++ care verifică dacă printre numerele din fişier există cel
+puţin 10 numere naturale. Programul afişează pe ecran mesajul DA în caz afirmativ şi NU în caz contrar.
+
+Exemplu: dacă fişierul numere.txt conţine numerele 60 -12.67 15 -1 -22.3 4 se afişează  mesajul NU.
+
+10. În fişierul numere.txt, se află memorate, pe prima linie un număr natural n (1≤n≤100), iar pe fiecare dintre următoarele n linii, câte două numere întregi x,y (-100≤x≤y≤100), reprezentând capetele câte unui segment [x,y] desenat pe axa Ox de coordonate.
+a) Scrieţi în limbajul C/C++ un program eficient din punct de vedere al timpului de executare şi al spaţiului de memorare, care citeşte din fişier datele existente, determină segmentul rezultat în urma intersecţiei tuturor celor n segmente date şi afişează pe ecran două numere despărţie printr-un spaţiu ce reprezintă capetele segmentului cerut. Dacă segmentele nu au niciun punct comun se va afişa pe ecran valoarea 0. 
+b) Descrieţi în limbaj natural algoritmul utilizat, justificând eficienţa acestuia. 
+
+Exemplu: dacă fişierul numere.txt are conţinutul alăturat, 
+5
+-7 10
+3 20
+-5 5
+0 12
+-8 30
+se va afişa pe ecran
+3 5

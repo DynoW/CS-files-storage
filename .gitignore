@@ -1,6 +1,5 @@
-*.exe
 *
 !/**/
-!*.*
+!*.cpp
 /Users/Daniel/Private/
 tempCodeRunnerFile.cpp

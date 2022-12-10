@@ -13,15 +13,12 @@ Exemplu: dacă n=3 fişierul BAC.TXT va avea conţinutul alăturat.
 using namespace std;
 
 int main(){
-    int n, i, i1, ct;
+    int n, i;
     cin >> n;
     ofstream g("BAC.TXT");
-    for(i=n;i>=1;i--){
-        for(i1=1;i1<n;i++){
-            cout << i1 << "";
-            if(i1%2==0){
-                cout << i1;
-            }
+    while(n--){
+        for(i=0;i<=n;i++){
+            cout << i*2 << " ";
         }
         cout << endl;
     }

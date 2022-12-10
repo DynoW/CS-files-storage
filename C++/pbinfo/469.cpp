@@ -8,9 +8,7 @@ int main(){
     if(a<=x && x<=b){
         cout << "DA";
     } else {
-        cout << "NO";
+        cout << "NU";
     }
     return 0;
 }
-
-/*Eroare found*/

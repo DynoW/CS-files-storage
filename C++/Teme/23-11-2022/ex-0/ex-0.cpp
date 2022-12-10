@@ -1,6 +1,7 @@
 /*
 0. Fişierul numere.txt conţine mai multe numere întregi (cel mult 100), fiecare număr
 având cel mult 9 cifre. Se cere să se afişeze pe ecran, despărţite printr-un spaţiu, cele mai mari două valori pare memorate în fişier. Dacă în fişier nu se află memorate două astfel de valori, pe ecran se va afişa valoarea 0.
+
 a) Descrieţi în limbaj natural o metodă de rezolvare eficientă din punct de vedere al
 gestionării memoriei şi al timpului de executare. 
 b) Scrieţi programul C/C++ corespunzător metodei descrise la punctul a. 

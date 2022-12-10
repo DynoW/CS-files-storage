@@ -18,9 +18,9 @@ int main(){
     ofstream g("BAC.TXT");
     while(n--){
         for(i=0;i<=n;i++){
-            cout << i*2 << " ";
+            g << i*2 << " ";
         }
-        cout << endl;
+        g << endl;
     }
     return 0;
 }

@@ -1,6 +1,9 @@
 *
 !/**/
 !*.cpp
+!*.CPP
+!*.txt
+!*.TXT
 /Users/Daniel/Private/
 tempCodeRunnerFile.cpp
 !/Users/

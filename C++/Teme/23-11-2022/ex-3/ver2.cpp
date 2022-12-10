@@ -21,6 +21,7 @@ int main(){
             for(i2=1;i2<i;i2++){
                 if(i%i2==0){
                     ct=ct+1;
+                    cout << "Ntza";
                 }
             }
             if(ct==2){

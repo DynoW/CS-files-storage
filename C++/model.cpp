@@ -5,8 +5,8 @@ using namespace std;
 
 int main(){
     int n;
-    fstream f("ex.in")
-    ofstream g("ex.out")
+    fstream f("ex.in");
+    ofstream g("ex.out");
     
     return 0;
 }

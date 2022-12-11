@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     int n;
-    fstream f("ex.in");
+    ifstream f("ex.in");
     ofstream g("ex.out");
     
     return 0;

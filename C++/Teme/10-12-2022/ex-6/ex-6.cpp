@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     int n, np, ni, cop;
-    fstream f("date.in");
+    ifstream f("date.in");
     while(f >> n){
         np = 0;
         ni = 0;

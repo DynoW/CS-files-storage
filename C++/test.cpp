@@ -4,8 +4,11 @@
 using namespace std;
 
 int main(){
-    int n;
-    cin >> n;
-    cout << "Your age is: " << n << endl;
+    int x;
+    fstream f("test.txt");
+    while (!f.eof()){
+        f>>x;
+        cout<<x;
+    }
     return 0;
 }

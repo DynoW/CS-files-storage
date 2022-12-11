@@ -5,6 +5,10 @@
 !*.txt
 !*.TXT
 !*.pdf
+!*.out
+!*.in
+!*.OUT
+!*.IN
 /Users/Daniel/Private/
 tempCodeRunnerFile.cpp
 !/Users/

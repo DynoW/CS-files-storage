@@ -4,12 +4,9 @@
 using namespace std;
 
 int main(){
-    int x;
-    cin >> x;
-    if(x>99){
-        cout << "Da";
-    } else {
-        cout << "Nu";
-    }
+    int a,b = 0; 
+    int i;
+    for (i=0;i<10;i++){ b = a; a = i; } 
+    cout<<b;
     return 0;
 }

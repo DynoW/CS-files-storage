@@ -9,6 +9,7 @@
 !*.in
 !*.OUT
 !*.IN
+!README.md
 /Users/Daniel/Private/
 tempCodeRunnerFile.cpp
 !/Users/

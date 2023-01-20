@@ -1,1 +1,1 @@
-Răspunsuri pentru problemele de la info/TIC
+Răspunsuri pentru problemele de la info/TIC.

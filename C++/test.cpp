@@ -3,6 +3,8 @@
 using namespace std;
 
 int main(){
-    cout << "Ntza lume!";
+    int n;
+    cin >> n;
+    cout << "Your number is: " << n;
     return 0;
 }

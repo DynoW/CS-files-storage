@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1668606752 source:e:\probleme\ex 12\ex 12\main.cpp
+	<iostream>
+	<fstream>
+

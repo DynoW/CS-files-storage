@@ -32,7 +32,7 @@ int main()
     }
     for(i=0;i<n;i++){
         for(j=i;j<n;j++){
-            if(v[i]>v[j]){
+            if(v[i]/10%10>v[j]/10%10){
                 swap(v[i],v[j]);
             }
         }

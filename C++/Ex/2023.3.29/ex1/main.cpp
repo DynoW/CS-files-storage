@@ -25,7 +25,7 @@ int main()
 
     }
     for(i=0;i<n;i++){
-        for(j=i;j<n+1;j++){
+        for(j=i;j<n;j++){
             if(v2[i]<v2[j]){
                 swap(v[i],v[j]);
                 swap(v2[i],v2[j]);

@@ -14,8 +14,6 @@ int main(){
             max = v[i];
         }
     }
-    for(i=0;i<n;i++){
-        cout << max;
-    }
+    cout << max;
     return 0;
 }

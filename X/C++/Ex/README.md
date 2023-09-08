@@ -1,1 +1,1 @@
-Location for each exercise is /{date}/{exercise-number}/{source-code}
+Location for each exercise is /{date}/{exercise-number}/main.cpp

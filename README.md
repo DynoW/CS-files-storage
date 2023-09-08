@@ -1,1 +1,1 @@
-Select year of study:
+Please select year of study from folders above ^^^ 😉

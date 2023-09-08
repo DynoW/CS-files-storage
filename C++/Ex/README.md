@@ -1,1 +1,0 @@
-Locatia codului specific fiecarui exercitiu este /{data}/{nr-exercitiu}/main.cpp

@@ -1,0 +1,96 @@
+Raspunsuri model de test:
+
+1.
+b) 123531421
+
+2.
+a)ifstream f("f1.in")
+  ofstream g("f2.out")
+
+b)if(x>99){
+    g << x << endl;
+}
+
+3.
+A. k = k + 1
+B. k += 1
+C. ++k
+
+4.
+a = 9
+b = 8
+i = 9
+ecran = 8
+
+5.#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main(){
+    int n, i, s=0;
+    cin >> n;
+    ofstream g("REZULTAT.TXT");
+    for(int i=1; i<=n; i++){
+        s=s+(3*i-2);
+    }
+    g << s;
+    return 0;
+}
+
+// REZULTAT.TXT > 12
+
+6.#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main(){
+    int n, np, ni, cop;
+    ifstream f("date.in");
+    while(f >> n){
+        np = 0;
+        ni = 0;
+        cop = n;
+        while(cop!=0){
+            if(cop%10%2==0){
+                np = np + 1;
+            } else {
+                ni = ni + 1;
+            }
+            cop = cop/10;
+        }
+        if(np==ni){
+            cout << n << endl;
+        }
+    }
+
+    return 0;
+}
+
+// date.in > 32 42 123124 2363
+
+7.#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main(){
+    int n, i, min=9, max=0, x;
+    ifstream f("numere.txt");
+    f >> n;
+    for(i=1;i<=n;i++){
+        f >> x;
+        if(min>x){
+            min=x;
+        }
+        if(max<x){
+            max=x;
+        }
+    }
+    cout << max << " " << min;
+    return 0;
+}
+
+// numere.txt > 7
+//            > 3 5 2 1 6 3

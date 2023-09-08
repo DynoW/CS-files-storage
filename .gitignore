@@ -1,3 +1,5 @@
-Users/Daniel/Private/*
-tempCodeRunnerFile.cpp
-main
+*\bin
+*\obj
+*.cbp
+*.depend
+*.layout

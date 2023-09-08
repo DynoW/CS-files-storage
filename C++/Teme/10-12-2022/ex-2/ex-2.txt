@@ -1,7 +1,0 @@
-2.
-a)ifstream f("f1.in");
-  ofstream g("f2.out");
-
-b)if(x>99){
-    g << x << endl;
-}

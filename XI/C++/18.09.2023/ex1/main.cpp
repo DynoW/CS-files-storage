@@ -49,13 +49,14 @@ int main()
         }
     }
     cout << endl;
-    n1=0;
+    s=0;
     for(i=0;i<n;i++){
         cout << v[i] << " ";
     }
     for(i=0;i<n;i=i+2){
-        for(j=1;j<=n;j++){
-            if(i%j==0){
+        n1=0;
+        for(j=1;j<=v[i];j++){
+            if(v[i]%j==0){
                 n1++;
             }
         }

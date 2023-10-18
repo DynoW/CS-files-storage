@@ -12,8 +12,13 @@ Exemplu: dacă n=2019, după apel d=201199.
 **/
 
 void duplicare(int n, int&d){
-    int ogl=0;
+    int ogl=0,zer=0, ok=0, i;
     while(n!=0){
+        if((n%10==0)&&(ok==0)){
+            zer++;
+        } else {
+            ok=1;
+        }
         ogl=ogl*10+n%10;
         if(n%2==1){
             ogl=ogl*10+n%10;
@@ -24,11 +29,14 @@ void duplicare(int n, int&d){
         d=d*10+ogl%10;
         ogl=ogl/10;
     }
+    for(i=1;i<=zer;i++){
+        d=d*10;
+    }
 }
 
 int main()
 {
-    int n=2019, d=0;
+    int n=20190, d=0;
     duplicare(n, d);
     cout << d;
     return 0;

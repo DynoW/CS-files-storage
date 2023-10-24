@@ -36,7 +36,7 @@ int main() {
         for(j=0;j<n;j++)
             sp=n-nrpare_p(n, v);
             ss=n-nrpare_s(n, v);
-    if(ss==-1||sp==-1){
+    if(sp+ss<=0){
         cout << "nu exista";
     } else {
         cout << ss+sp;

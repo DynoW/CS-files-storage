@@ -82,19 +82,22 @@ int suma_div_primi(int n){
 }
 
 int max_cif_impara(int n){
-    int max=1;
+    int max=0;
     while(n){
         if(n%2!=0&&max<n%10)
             max=n%10;
         n/=10;
     }
-    return max;
+    if(max)
+        return max;
+    else
+        return -1;
 }
 
 int min_cif_para(int n){
     int min=n%10;
     while(n){
-        while(min%2){
+        while(min%2&&n>9){
             min=n%10;
             n/=10;
         }
@@ -102,7 +105,10 @@ int min_cif_para(int n){
             min=n%10;
         n/=10;
     }
-    return min;
+    if(min%2)
+        return -1;
+    else
+        return min;
 }
 
 int main() {
@@ -114,7 +120,7 @@ int main() {
     cout << suma_cif(324) << endl;
     cout << suma_div_proprii(324) << endl;
     cout << suma_div_primi(324) << endl;
-    cout << max_cif_impara(324) << endl;
-    cout << min_cif_para(324) << endl;
+    cout << max_cif_impara(724) << endl;
+    cout << min_cif_para(724) << endl;
     return 0;
 }

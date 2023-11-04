@@ -110,16 +110,16 @@ int min_cif_para(int n){
     else
         return min;
 
-    // Sau cu min=10
-    
+    // Sau cu min=9
+
     /*
-    int min=10;
+    int min=9;
     while(n){
         if(n%2==0&&min>n%10)
             min=n%10;
         n/=10;
     }
-    if(min==10)
+    if(min==9)
         return -1;
     else
         return min;

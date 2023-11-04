@@ -110,7 +110,7 @@ int min_cif_para(int n){
     else
         return min;
 
-    // Sau cu min=9
+    // Sau cu min=9 <<< mai simplu
 
     /*
     int min=9;

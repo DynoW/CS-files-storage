@@ -108,24 +108,24 @@ void min_cif_para(int n, int&out){
 int main() {
     int out;
     suma_cif(324, out);
-    cout << out << endl;
+    cout << "a) " << out << endl;
     suma_cif_pare(324, out);
-    cout << out << endl;
+    cout << "b) " << out << endl;
     num_cif(324, out);
-    cout << out << endl;
+    cout << "c) " << out << endl;
     num_cif_impare(324, out);
-    cout << out << endl;
+    cout << "d) " << out << endl;
     prima_cif(324, out);
-    cout << out << endl;
+    cout << "e) " << out << endl;
     suma_cif(324, out);
-    cout << out << endl;
+    cout << "f) " << out << endl;
     suma_div_proprii(324, out);
-    cout << out << endl;
+    cout << "g) " << out << endl;
     suma_div_primi(324, out);
-    cout << out << endl;
+    cout << "h) " << out << endl;
     max_cif_impara(324, out);
-    cout << out << endl;
+    cout << "i) " << out << endl;
     min_cif_para(324, out);
-    cout << out << endl;
+    cout << "j) " << out << endl;
     out = 0;
 }

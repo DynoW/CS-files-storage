@@ -112,15 +112,15 @@ int min_cif_para(int n){
 }
 
 int main() {
-    cout << suma_cif(324) << endl;
-    cout << suma_cif_pare(324) << endl;
-    cout << num_cif(324) << endl;
-    cout << num_cif_impare(324) << endl;
-    cout << prima_cif(324) << endl;
-    cout << suma_cif(324) << endl;
-    cout << suma_div_proprii(324) << endl;
-    cout << suma_div_primi(324) << endl;
-    cout << max_cif_impara(724) << endl;
-    cout << min_cif_para(724) << endl;
+    cout << "a) " << suma_cif(324) << endl;
+    cout << "b) " << suma_cif_pare(324) << endl;
+    cout << "c) " << num_cif(324) << endl;
+    cout << "d) " << num_cif_impare(324) << endl;
+    cout << "e) " << prima_cif(324) << endl;
+    cout << "f) " << suma_cif(324) << endl;
+    cout << "g) " << suma_div_proprii(324) << endl;
+    cout << "h) " << suma_div_primi(324) << endl;
+    cout << "i) " << max_cif_impara(724) << endl;
+    cout << "j) " << min_cif_para(724) << endl;
     return 0;
 }

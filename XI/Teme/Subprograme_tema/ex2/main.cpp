@@ -119,7 +119,7 @@ void min_cif_para(int n, int&out){
             min=n%10;
         n/=10;
     }
-    if(min==0)
+    if(min==9)
         out = -1;
     else
         out = min;

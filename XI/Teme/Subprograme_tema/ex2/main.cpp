@@ -88,7 +88,10 @@ void max_cif_impara(int n, int&out){
             max=n%10;
         n/=10;
     }
-    out=max;
+    if(max)
+        out = max;
+    else
+        out = -1;
 }
 
 void min_cif_para(int n, int&out){
@@ -102,7 +105,25 @@ void min_cif_para(int n, int&out){
             min=n%10;
         n/=10;
     }
-    out=min;
+    if(min)
+        out = -1;
+    else
+        out = min;
+
+    // Sau cu min=9 <<< mai simplu
+
+    /*
+    int min=9;
+    while(n){
+        if(n%2==0&&min>n%10)
+            min=n%10;
+        n/=10;
+    }
+    if(min==0)
+        out = -1;
+    else
+        out = min;
+    */
 }
 
 int main() {

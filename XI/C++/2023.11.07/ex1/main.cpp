@@ -2,8 +2,6 @@
 
 using namespace std;
 
-
-
 float medie(int n, int v[100]){
     int s=0, ct=0;
     for (int i=0;i<n;i++){

@@ -43,6 +43,7 @@ int linii(int n, int v[100][100]) {
     }
 
     /*
+    Obs: pe telefon posibil sa nu fie afisati corect indicii
     a₀₀   a₀₁   a₀₂   a₀₃
         \
     a₁₀   a₁₁   a₁₂   a₁₃

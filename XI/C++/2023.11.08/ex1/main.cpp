@@ -30,9 +30,9 @@ int linii(int n, int v[100][100]) {
     // verifica peste diagonala principala
     for(int j = 1; j < n; j++) { //restul este la fel doar ca inversezi liinile cu coloanele vezi mai jos explicatie cu desen
         int ok = 1;
-        int cp = v[0][j];
+        int cp = v[0][j]; // (2)
         for(int i = 0; i < n; i++) {
-            if(i + j < n && v[i][i + j] != cp) {
+            if(i + j < n && v[i][i + j] != cp) { // (2)
                 ok = 0;
                 break;
             }
@@ -52,7 +52,7 @@ int linii(int n, int v[100][100]) {
                     \
     a₃₀   a₃₁   a₃₂   a₃₃
 
-    Deasupa diagonalei principale sun fix cele de jos doar ca se schimba i cu j
+    Deasupa diagonalei principale sun fix cele de jos doar ca se schimba i cu j (1)
 
     Vezi pozitie a₁₀ si a₀₁, a₂₁ si a₁₂, a₃₀ si a₀₃.
     Sunt simetrice de diagonala
@@ -71,6 +71,13 @@ int linii(int n, int v[100][100]) {
     7
 
     Tip: pentru a ignora colturile mergi pana in n-1
+
+    Bonus: pentru a verifica afirmatia notata cu (1):
+    1) comenteaza primul for mare cu ( folosesti /* )
+    2) dubleaza al doilea for mare
+    1) fa schimbari doar in forul copiat:
+        a) inverseaza valorile din [] ale vectorului unde vezi comentul: // (2)
+        b) j incepe de la 0 in loc de 1
     */
 
     return ct;

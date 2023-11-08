@@ -18,8 +18,8 @@ int linii(int n, int v[100][100]) {
         int cp = v[i][0];  // primul element al fiecarei diagonale
         for(int j = 0; j < n; j++) {
             if(i + j < n && v[i + j][j] != cp) { // verifica daca restul elementelor sunt egale cu primul (mai multe expliactii mai jos)
-                ok = 0; // daca nu este egal ok=0 si se intrerupe for
-                break;  // Obs: i+j<n ignora deoacamdata i+j<n (doar verifica sa nu treaca mai mult de marginile matricei)
+                ok = 0; // daca nu este egal, ok=0 si se intrerupe for
+                break;  // Obs: ignora deoacamdata i+j<n (doar verifica sa nu treaca mai mult de marginile matricei)
             }
         }
         if(ok) { // verifica daca au fost elementele egale pe linie

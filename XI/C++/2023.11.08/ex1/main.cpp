@@ -44,7 +44,7 @@ int linii(int n, int v[100][100]) {
 
     /*
     Ignora (1) si (2) pana la bonus
-    Obs: pe telefon posibil sa nu fie afisati corect indicii
+    Obs: pe telefon posibil sa nu fie afisati corect indicii de mai jos
     a₀₀   a₀₁   a₀₂   a₀₃
         \
     a₁₀   a₁₁   a₁₂   a₁₃

@@ -78,7 +78,7 @@ int linii(int n, int v[100][100]) {
     3) fa schimbari doar in forul copiat:
         a) inverseaza valorile din [] ale vectorului unde vezi comentul: // (2)
         b) j incepe de la 0 in loc de 1
-    Ar trebui sa mearga ca cel initial
+    Ar trebui sa mearga ca cel initial daca ai facut bine
     */
 
     return ct;

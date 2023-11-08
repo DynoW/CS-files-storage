@@ -43,6 +43,7 @@ int linii(int n, int v[100][100]) {
     }
 
     /*
+    Ignora (1) si (2) pana la bonus
     Obs: pe telefon posibil sa nu fie afisati corect indicii
     a₀₀   a₀₁   a₀₂   a₀₃
         \

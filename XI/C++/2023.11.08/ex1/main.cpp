@@ -75,9 +75,10 @@ int linii(int n, int v[100][100]) {
     Bonus: pentru a verifica afirmatia notata cu (1):
     1) comenteaza primul for mare cu ( folosesti /* )
     2) dubleaza al doilea for mare
-    1) fa schimbari doar in forul copiat:
+    3) fa schimbari doar in forul copiat:
         a) inverseaza valorile din [] ale vectorului unde vezi comentul: // (2)
         b) j incepe de la 0 in loc de 1
+    Ar trebui sa mearga ca cel initial
     */
 
     return ct;

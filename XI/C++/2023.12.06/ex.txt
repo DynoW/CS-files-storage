@@ -1,0 +1,13 @@
+T19 2020
+
+Variabilele i și j sunt de tip întreg, iar variabila s poate memora un șir de cel mult 20 de caractere.
+Scrieți șirul memorat de variabila s în urma executării secvenței de mai jos.
+strcpy(s,"informatie"); n=strlen(s)-1;
+for(i=0;i<n/2;i++)
+ if(strchr("aeiou",s[i])!=NULL && strchr("aeiou",s[n-i])!=NULL)
+ { s[i]=s[i+1]; s[n-i]=s[n-i-1];}
+
+i=0
+j=
+s=nnfrrmmtii
+n=9

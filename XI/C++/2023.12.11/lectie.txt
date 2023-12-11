@@ -1,0 +1,52 @@
+strcmp - compara alfabetic 2 siruri de caractere
+
+int strcmp(char*a,char*b)
+
+returneaza 0 daca a=b
+	   <0 daca a<b
+	   >0 daca a>b
+
+Ex: char a[]="acasa", b[]="acest";
+    strcmp(a,b); => <0
+    strcmp(b,a); => >0
+
+Ex: if(strcmp(a,b)==0); => sunt identice
+
+strstr - cauta un subsir intr-u sir si returneaza adresa primei aparitii a subsirului in sir
+
+char*strstr(char*sir,char*sub)
+
+Ex: char sir[]="ana are mere si are pere", sub[]="are";
+    cout << strstr(sir,sub); => are mere si are pere
+
+1.elim unui subsir din sir
+char sir[101],sub[21],*p;
+cin.get(sir,101);
+cin.get(sub,21);
+p=strstr(sir,sub);
+while(p!=NULL){
+  strcpy(p,strlen(sub));
+  p=strstr(sir,sub);
+}
+cout << sir;
+
+2.sa se inlocuiasca un subsir cu un alt subsir
+sir: ana |are mere si are si are pere
+s1: are
+s2: a avut => ana a avut mere si a avut pere
+
+char sir[101], s1[21], s2[21], f[101, *p;
+cin.getline(sir,101);
+cin.getline(s1,21);
+cin.getline(s2,21);
+p=strstr(sir,s1);
+while(p!=NULL){
+  f[0]=NULL;
+  strcat(f,sir,p-sir);
+  strcat(f,s2);
+  strcat(f,p+strlen(s1));
+  strcpy(sin,f);
+  p=strstr(p+strlen(s2),s1);
+}
+cout<<sin;
+

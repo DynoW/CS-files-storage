@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-int main() {
     char q[20][21];
     int n, k, i;
     cin >> n >> k;

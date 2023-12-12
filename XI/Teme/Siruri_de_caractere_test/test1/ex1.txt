@@ -18,4 +18,4 @@ b==b       t=bacdde{NULL}
            s+i=bacdde
 i=1 b==a x
 i=2 a
-ecran abcde
+ecran abacde

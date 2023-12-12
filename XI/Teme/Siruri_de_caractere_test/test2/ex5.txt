@@ -1,0 +1,35 @@
+i=0; char s[11]="abaemeiut";
+cout<<strlen(s);
+while (i<strlen(s))
+if (strchr("aeiou",s[i])!=NULL)
+{strcpy(t,s+i+1);
+strcpy(s+i,t);
+i=i+1;}
+else i=i+2;
+cout<<" "<<s;
+
+s=abaemeiut
+  012345678
+strlen(s)=9
+while (i<9)
+t=baemeiut
+s=baemeiut
+  01234567
+  i=0
+
+  i=2
+  t=meiut
+  s=bameiut
+    0123456
+
+  i=3!!!
+  t=iut
+  s=bameiut
+    012345
+    
+  i=4
+  t=t
+  s=bameut
+
+
+Ecran: 9 bameut

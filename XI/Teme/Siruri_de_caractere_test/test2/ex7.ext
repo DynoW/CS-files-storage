@@ -1,0 +1,21 @@
+char a[10]="Examen";
+for (i=0;i<=2;i++)
+strcpy (a+i,a+i+1);
+cout<<a;
+
+a=Examen
+  012345
+  i=0 i<=2 i++
+
+  a=xamen
+    01234
+
+  i=1
+  a+i+1=men
+  a=xmen
+    0123
+  i=2
+  a+i+1=n
+  a=xmn
+
+  Ecran: xmn

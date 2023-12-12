@@ -1,0 +1,22 @@
+char c[21]="tamara", *p;
+for (i=0;i<strlen(c);i=i+1)
+{p=strchr(c,'a')
+cout<<p-c;}
+
+c=tamara
+  012345
+400 401
+strlen(c)=6
+i=0
+p=amara
+cout: 1
+i=1
+p=amara
+cout: 1
+i=2
+p=amara
+cout: 1
+i=3
+p=amara
+
+111111

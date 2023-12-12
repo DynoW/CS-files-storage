@@ -1,0 +1,5 @@
+char e[20]="51+73";
+strcpy(e,strchr(e,'+')+2)
+
++73
+Ecran: 3

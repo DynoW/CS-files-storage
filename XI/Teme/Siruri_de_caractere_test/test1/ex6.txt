@@ -1,0 +1,11 @@
+char s[]="arac";
+t=s[1];
+s[1]=s[3];
+s[3]='t';
+cout<<s;
+
+s=arac
+  0123
+  t=r
+  s=acac
+  Ecran: acat

@@ -1,0 +1,2 @@
+Se citesc coord carteziene a n pct in plan. Pct form un poligon convex, calc si afis aria poligonului
+Se citesc raza si coord cart ale centrului unui cerc, iar apoi n pct in plan. Afis pct sit in interiorul cercului dat

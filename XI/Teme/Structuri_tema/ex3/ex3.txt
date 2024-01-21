@@ -1,0 +1,4 @@
+struct elev {
+    int cod;
+    float nota1, nota2;
+} y[30];

@@ -28,10 +28,10 @@ int main(){
     for(i=0;i<n;i++){
         if(v[i].luna==luna){
             if(v[i].zi>zi){
-                cout << v[i].nrmatricol << " " << v[i].luna << " " << v[i].zi << endl;
+                cout << v[i].nrmatricol << " " << v[i].zi << " " << v[i].luna << endl;
             }
         } else if (v[i].luna > luna){
-            cout << v[i].nrmatricol << " " << v[i].luna << " " << v[i].zi << endl;
+            cout << v[i].nrmatricol << " " << v[i].zi << " " << v[i].luna << endl;
         }
     }
     return 0;

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1709883129 source:e:\xi\pbinfo\194\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

@@ -72,7 +72,7 @@ cat timp ---> repeta
 cat timp conditie executa
     S
 ```
-===>
+==>
 ```
 daca conditie atunci
     repeta
@@ -86,7 +86,7 @@ repeta
     S
 pana cand conditie
 ```
-===>
+==>
 ```
 cat timp ! conditie executa
     S
@@ -99,7 +99,7 @@ a) crescator
 pentru i<-Vm,VM,pas executa
     S
 ```
-===>
+==>
 ```
 i<-Vm
 cat timp i<= VM executa
@@ -120,7 +120,7 @@ b) descrescator
 pentru i<-VM,Vm,-pas executa
     S
 ```
-===>
+==>
 ```
 i<-VM
 cat timp i >= Vm executa

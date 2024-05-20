@@ -1,23 +1,29 @@
 I
-1.
-b) ’m’==’M’
-2.
-b) 75 45 15
-3.
-caramel, ciocolata, frisca, nuci,vanilie
+
+1. b) ’m’==’M’
+
+2. b) 75 45 15
+
+3.caramel, ciocolata, frisca, nuci,vanilie
+
 3 tipuri
+
 ultimul frisca/vanilie si nu pot aparea pe primele 2 straturi
+
 ordinea dif
 
 caramel cioco frisca
+
 caramal cioco vanilie
+
 caramel nuci frisca
+
 caramal nuci vanilie
+
 a) cioco caram frisca
-4.
-d) 5
-5.
-b) 2,2,3,5,0,3
+
+4. d) 5
+5. b) 2,2,3,5,0,3
 
 II
 1.
@@ -48,7 +54,9 @@ a)
 |       |      |   | 27102 |       |
 |       |      |   | …     |       |
 |       |      |   | 0     |
+
 b) 101 110 1011
+
 c)
 ```cpp
 cin >> n;

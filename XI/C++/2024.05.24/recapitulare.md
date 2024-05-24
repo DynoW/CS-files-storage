@@ -1,6 +1,6 @@
-1) suma cifrelor
+**1. suma cifrelor**
 
-```
+```cpp
 s=0;
 while(n!=0){
     s=s+n%10;
@@ -10,15 +10,15 @@ while(n!=0){
 
 sau
 
-```
+```cpp
 s=0;
 while(n)
     s+=n%10,n/=10;
 ```
 
-2) inversul/oglinditul/rasturnatul
+**2. inversul/oglinditul/rasturnatul**
 
-```
+```cpp
 inv =0;
 while(n!=0){
     inv=inv*10+n%10;
@@ -26,25 +26,25 @@ while(n!=0){
 }
 ```
 
-3) factirii primi si puterile lor
+**3. factirii primi si puterile lor**
 
-90=2^1*3^2*5^1
+90=2^1\*3^2\*5^1
 
-| n  | d | p |
-|----|---|---|
-| 90 | 2 | 0 |
-| 45 |   | 1 |
-|----|---|---|
-| 15 | 3 | 0 |
-| 5  |   | 1 |
-|    |   | 1 |
-|----|---|---|
-|    | 4 | 0 |
-|----|---|---|
-| 1  | 5 | 0 |
-|    |   | 1 |
+| n    | d   | p   |
+| ---- | --- | --- |
+| 90   | 2   | 0   |
+| 45   |     | 1   |
+| ---- | --- | --- |
+| 15   | 3   | 0   |
+| 5    |     | 1   |
+|      |     | 1   |
+| ---- | --- | --- |
+|      | 4   | 0   |
+| -    | -   | -   |
+| 1    | 5   | 0   |
+|      |     | 1   |
 
-```
+```cpp
 d=2;
 while(n!=1){
     p=0;
@@ -58,11 +58,11 @@ while(n!=1){
 }
 ```
 
-4) cmmdc & cmmmc
+**4. cmmdc & cmmmc**
 
 a) cu scaderi repetate
 
-```
+```cpp
 if(a*b==0)
     cmmdc=a+b;
 else {
@@ -78,7 +78,7 @@ cmmmc =ca*cb/cmmdc;
 
 b) Euclid
 
-```
+```cpp
 id(a*b==0)
     cmmdc=a+b;
 else {
@@ -95,11 +95,11 @@ else {
 cmmmc = a*b/cmmdc;
 ```
 
-5) nr prim
+**5. nr prim**
 
 a)
 
-```
+```cpp
 nrd=0;
 for(d=1;d<=n;d++)
     if(n%d==0)
@@ -110,7 +110,7 @@ if(nrd==2)
 
 b) eficient
 
-```
+```cpp
 nrd=0;
 for(d=1;d*d<n;d++)
     if(n%d==0)
@@ -121,11 +121,11 @@ if(nrd==2)
     ...
 ```
 
-6) suma divizorilor
+**6. suma divizorilor**
 
 a)
 
-```
+```cpp
 nrd=0;
 for(d=1;d<=n;d++)
     if(n%d==0)
@@ -134,7 +134,7 @@ for(d=1;d<=n;d++)
 
 b) eficient
 
-```
+```cpp
 s=0;
 for(d=1;d*d<n;d++)
     if(n%d==0)
@@ -143,7 +143,7 @@ if(d*d==n)
     s=s+d;
 ```
 
-7) sirul lui Fibonacci
+**7. sirul lui Fibonacci**
 
 ```
   c b a
@@ -153,7 +153,7 @@ c b a
 
 a) afisarea primilor n termeni
 
-```
+```cpp
 int a,b,c,n;
 cin >> n;
 if(n==1)
@@ -174,7 +174,7 @@ else {
 
 b) verificam daca un numar x face parte din sir
 
-```
+```cpp
 int ok=0;
 cin >> x;
 if(x==1)
@@ -191,13 +191,13 @@ else {
 } 
 ```
 
-8) transformari
+**8. transformari**
 
 a) din baza 10 in baza b
 
 8(10) = ?(2)
 
-```
+```cpp
 nrd = 0;
 p=1;
 while(n!=0) {
@@ -207,11 +207,11 @@ while(n!=0) {
 }
 ```
 
-c) din baza b in baza c
+b) din baza b in baza c
 
 1011(2) = ?(10)
 
-```
+```cpp
 while(n!=0) {
 	nr10=nr10+p*(n%10);
 	p=p*b;

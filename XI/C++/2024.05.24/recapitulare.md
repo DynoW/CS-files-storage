@@ -3,8 +3,8 @@
 ```cpp
 s = 0;
 while(n != 0){
-    s = s + n%10;
-    n = n/10;
+    s = s + n % 10;
+    n = n / 10;
 }
 ```
 
@@ -13,9 +13,8 @@ sau
 ```cpp
 s = 0;
 while(n)
-    s += n%10, n /= 10;
+    s += n % 10, n /= 10;
 ```
-
 **2. inversul/oglinditul/rasturnatul**
 
 ```cpp
@@ -40,7 +39,7 @@ while(n != 0){
 |      |     | 1   |
 | ---- | --- | --- |
 |      | 4   | 0   |
-| -    | -   | -   |
+| ---- | --- | --- |
 | 1    | 5   | 0   |
 |      |     | 1   |
 
@@ -53,7 +52,8 @@ while(n != 1){
         p++;
     }
     if(p != 0)
-        ...
+        // prelucrare p, d
+        // ...
     d++;
 }
 ```
@@ -79,7 +79,7 @@ cmmmc = ca * cb / cmmdc;
 b) Euclid
 
 ```cpp
-id(a * b == 0)
+if(a * b == 0)
     cmmdc = a + b;
 else {
     D = a;
@@ -105,7 +105,8 @@ for(d = 1; d <= n; d++)
     if(n % d == 0)
         nrd++;
 if(nrd == 2)
-    ...
+    // prelucrare n
+    // ...
 ```
 
 b) eficient
@@ -118,7 +119,8 @@ for(d = 1; d * d < n; d++)
 if(d * d == n)
     nrd++;
 if(nrd == 2)
-    ...
+    // prelucrare n
+    // ...
 ```
 
 **6. suma divizorilor**
@@ -209,7 +211,7 @@ while(n != 0) {
 
 b) din baza b in baza c
 
-1011(2) = ?(10)
+1011 (baza 2) = ? (baza 10)
 
 ```cpp
 while(n != 0) {

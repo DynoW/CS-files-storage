@@ -1,100 +1,106 @@
-## Pseudocod:
-
-#### Structura alternativa:
-
+# Pseudocod:
+## Structura alternativa:
 ```
-daca conditie atunci
-    S1
+daca [conditie] atunci
+    [instructiune 1]
 altfel
-    S2
+    [instructiune 2]
 ```
 ```
-daca conditie atunci
-    S
+daca [conditie] atunci
+    [instructiune]
 ```
-#### Structuri repetitive:
+## Structuri repetitive:
+### I. cu test initial (la inceput):
+a) `cat timp [conditie]` - nr. necunoscut de pasi
 
-I. cu test initial (la inceput):
+b) `pentru [var]<-[Vm],[VM],[pas]` - nr. cunoscut de pasi
+```
+Explicatii:
+var = variabila
+Vm = valoarea minima
+VM = valoarea maxima
+pas = pas (exemplu: i++)
+```
 
-a) `cat timp` - nr. necunoscut de pasi
-b) `pentru` - nr. cunoscut de pasi
+### II. cu test final (la sfarsit):
+c) `repeta [instructiune] pana cand [conditie]` - nr. necunoscut de pasi ( sau `executa [instructiune] cat timp [conditie]` )
 
-II. cu test initial (la sfarsit):
-
-c) `repeta ... pana cand` - nr. necunoscut de pasi
-(executa ... cat timp)
-
-#### Folosire:
+## Folosire:
 a)
 ```
-cat timp conditie executa
-    S
+cat timp [conditie] executa
+    [instructiune]
 ```
 b)
 ```
-pentru i<-Vm,VM,pas executa
-    S
+Explicatii:
+var = variabila
+Vm = valoarea minima
+VM = valoarea maxima
+pas = pas (exemplu: i++)
+```
+```
+pentru [var]<-[Vm],[VM],[pas] executa
+    [instructiune]
 ```
 c)
 ```
 repeta
-    S
-pana cand conditie
+    [instructiune]
+pana cand [conditie]
 ```
-###### SAU
+##### SAU
 ```
 executa
-    S
-cat timp conditie
+    [instructiune]
+cat timp [conditie]
 ```
-
 exemplu:
 ```
 pentru i<-2,7 executa
     scrie i
+
 output=>234567
 ```
 ```
 pentru i<-2,7,2 executa
     scrie i
+
 output=>246
 ```
 ```
 pentru i<-7,2,-1 executa
     scrie i
+
 output=>765432
 ```
-
-###  Transformari in structuri:
-1.
-cat timp ---> repeta
+##  Transformari in structuri:
+###  1. cat timp --> repeta
 ```
-cat timp conditie executa
-    S
+cat timp [conditie] executa
+    [instructiune]
 ```
 ==>
 ```
-daca conditie atunci
+daca [conditie] atunci
     repeta
-        S
-    pana cand !conditie
+        [instructiune]
+    pana cand ![conditie]
 ```
-2.
-repeta ---> cat timp
+### 2. repeta --> cat timp
 ```
 repeta
-    S
-pana cand conditie
+    [instructiune]
+pana cand [conditie]
 ```
 ==>
 ```
 cat timp ! conditie executa
     S
 ```
-3.
-pentru -> cat timp/repeta
-
-a) crescator
+### 3. pentru -> cat timp/repeta
+#### a) crescator
 ```
 pentru i<-Vm,VM,pas executa
     S
@@ -106,7 +112,7 @@ cat timp i<= VM executa
     S
     i<i+pas
 ```
-##### sau
+##### SAU
 ```
 i<-Vm
 daca i<= VM executa
@@ -115,7 +121,7 @@ daca i<= VM executa
     i<-i+pas
     pana cand i>Vm
 ```
-b) descrescator
+#### b) descrescator
 ```
 pentru i<-VM,Vm,-pas executa
     S
@@ -127,7 +133,7 @@ cat timp i >= Vm executa
     S
     i<i-pas
 ```
-###### sau
+##### SAU
 ```
 i<-VM
 daca i >= Vm executa
@@ -136,19 +142,19 @@ daca i >= Vm executa
     i<-i-pas
     pana cand i<VM
 ```
-#### Atentie!
+### Atentie!
 - pseudocod
 ```
-daca cont atunci
-    S1
+daca [conditie] atunci
+    [instructiune 1]
 altfel
-    S2
+    [instructiune 2]
 ```
 - C++
 ```
-if(cond){
-    S1;
+if([conditie]) {
+    [instructiune 1];
 } else {
-    S2;
+    [instructiune 2];
 }
 ```

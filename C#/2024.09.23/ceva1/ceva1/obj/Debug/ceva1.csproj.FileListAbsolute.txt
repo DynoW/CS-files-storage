@@ -1,0 +1,10 @@
+E:\C#\ceva1\ceva1\bin\Debug\ceva1.exe.config
+E:\C#\ceva1\ceva1\bin\Debug\ceva1.exe
+E:\C#\ceva1\ceva1\bin\Debug\ceva1.pdb
+E:\C#\ceva1\ceva1\obj\Debug\ceva1.csproj.AssemblyReference.cache
+E:\C#\ceva1\ceva1\obj\Debug\ceva1.Form1.resources
+E:\C#\ceva1\ceva1\obj\Debug\ceva1.Properties.Resources.resources
+E:\C#\ceva1\ceva1\obj\Debug\ceva1.csproj.GenerateResource.cache
+E:\C#\ceva1\ceva1\obj\Debug\ceva1.csproj.CoreCompileInputs.cache
+E:\C#\ceva1\ceva1\obj\Debug\ceva1.exe
+E:\C#\ceva1\ceva1\obj\Debug\ceva1.pdb

@@ -87,7 +87,7 @@ namespace ceva1
         {
             int nra = int.Parse(textBox7.Text);
             int nrb = 0;
-            int p = 0;
+            int p = 1;
             while (nra != 0)
             {
                 nrb = nrb + p * (nra % 2);

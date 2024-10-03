@@ -62,10 +62,7 @@ namespace ceva1
                 case 7:
                     da();
                     label7.Visible = true;
-                    break;
-                case 8:
-                    da();
-                    n = 0;
+                    n=0;
                     break;
             }
             n++;

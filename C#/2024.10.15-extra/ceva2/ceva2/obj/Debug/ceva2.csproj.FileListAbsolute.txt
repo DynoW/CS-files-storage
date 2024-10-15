@@ -1,0 +1,10 @@
+C:\Users\naffe\repos\CS-files-storage\C#\2024.10.15-extra\ceva2\ceva2\bin\Debug\ceva2.exe.config
+C:\Users\naffe\repos\CS-files-storage\C#\2024.10.15-extra\ceva2\ceva2\bin\Debug\ceva2.exe
+C:\Users\naffe\repos\CS-files-storage\C#\2024.10.15-extra\ceva2\ceva2\bin\Debug\ceva2.pdb
+C:\Users\naffe\repos\CS-files-storage\C#\2024.10.15-extra\ceva2\ceva2\obj\Debug\ceva2.csproj.AssemblyReference.cache
+C:\Users\naffe\repos\CS-files-storage\C#\2024.10.15-extra\ceva2\ceva2\obj\Debug\ceva2.Form1.resources
+C:\Users\naffe\repos\CS-files-storage\C#\2024.10.15-extra\ceva2\ceva2\obj\Debug\ceva2.Properties.Resources.resources
+C:\Users\naffe\repos\CS-files-storage\C#\2024.10.15-extra\ceva2\ceva2\obj\Debug\ceva2.csproj.GenerateResource.cache
+C:\Users\naffe\repos\CS-files-storage\C#\2024.10.15-extra\ceva2\ceva2\obj\Debug\ceva2.csproj.CoreCompileInputs.cache
+C:\Users\naffe\repos\CS-files-storage\C#\2024.10.15-extra\ceva2\ceva2\obj\Debug\ceva2.exe
+C:\Users\naffe\repos\CS-files-storage\C#\2024.10.15-extra\ceva2\ceva2\obj\Debug\ceva2.pdb

@@ -1,4 +1,4 @@
-﻿namespace ceva2
+namespace ceva2
 {
     partial class Form1
     {

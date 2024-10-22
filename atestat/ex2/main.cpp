@@ -11,7 +11,7 @@ int suma_x(int n, int a[100][100], int x) {
 
 int main() {
     ifstream f("grade.in");
-    int n, a[100][100], x, y, max=0, verif_n0=0;
+    int n, a[100][100]={0}, x, y, max=0, verif_n0=0;
     
     f >> n;
     while (f>>x && f>>y) {

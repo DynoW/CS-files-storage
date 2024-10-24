@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\naffe\\repos\\CS-files-storage\\C#\\2024.10.15-extra\\ceva1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69D321E3-6B09-477E-AF3A-BDD2B79A5053}|ceva1\\ceva1.csproj|c:\\users\\naffe\\repos\\cs-files-storage\\c#\\2024.10.15-extra\\ceva1\\ceva1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69D321E3-6B09-477E-AF3A-BDD2B79A5053}|ceva1\\ceva1.csproj|solutionrelative:ceva1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69D321E3-6B09-477E-AF3A-BDD2B79A5053}|ceva1\\ceva1.csproj|c:\\users\\naffe\\repos\\cs-files-storage\\c#\\2024.10.15-extra\\ceva1\\ceva1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69D321E3-6B09-477E-AF3A-BDD2B79A5053}|ceva1\\ceva1.csproj|solutionrelative:ceva1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\naffe\\repos\\CS-files-storage\\C#\\2024.10.15-extra\\ceva1\\ceva1\\Form1.cs",
+              "RelativeDocumentMoniker": "ceva1\\Form1.cs",
+              "ToolTip": "C:\\Users\\naffe\\repos\\CS-files-storage\\C#\\2024.10.15-extra\\ceva1\\ceva1\\Form1.cs",
+              "RelativeToolTip": "ceva1\\Form1.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwCsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:18:56.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\naffe\\repos\\CS-files-storage\\C#\\2024.10.15-extra\\ceva1\\ceva1\\Form1.cs",
+              "RelativeDocumentMoniker": "ceva1\\Form1.cs",
+              "ToolTip": "C:\\Users\\naffe\\repos\\CS-files-storage\\C#\\2024.10.15-extra\\ceva1\\ceva1\\Form1.cs [Design]",
+              "RelativeToolTip": "ceva1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:16:16.415Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

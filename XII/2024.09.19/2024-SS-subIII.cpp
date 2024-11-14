@@ -5,7 +5,7 @@ int fulg(long long n) {
     if (n > 99999999 && n < 10000000000) {
         while (n != 0) {
             if (n % 10 != 1 || n % 10 != 2 || n % 10 != 3 || n % 10 != 4)
-                return 0;
+                return 0; // refacut asta sa includa contor
             n /= 10;
         }
         return 1;

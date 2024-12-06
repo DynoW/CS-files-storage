@@ -1,4 +1,8 @@
 {
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "clear && g++ -o $dir/$fileNameWithoutExt $fullFileName && $dir/$fileNameWithoutExt; echo"
+    },
     "files.associations": {
         "iostream": "cpp"
     },

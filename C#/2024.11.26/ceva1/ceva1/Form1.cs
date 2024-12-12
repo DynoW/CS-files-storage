@@ -34,42 +34,42 @@ namespace ceva1
             if (global.nr_intrebare == 1)
             {
                 button1.Enabled = false;
-                button1.Text = "x";
+                button1.Text = "1+3";
             }
             if (global.nr_intrebare == 2)
             {
                 button2.Enabled = false;
-                button2.Text = "x";
+                button2.Text = "2-1";
             }
             if (global.nr_intrebare == 3)
             {
                 button3.Enabled = false;
-                button3.Text = "x";
+                button3.Text = "2+2";
             }
             if (global.nr_intrebare == 4)
             {
                 button4.Enabled = false;
-                button4.Text = "x";
+                button4.Text = "3-2";
             }
             if (global.nr_intrebare == 5)
             {
                 button5.Enabled = false;
-                button5.Text = "x";
+                button5.Text = "3-1";
             }
             if (global.nr_intrebare == 6)
             {
                 button6.Enabled = false;
-                button6.Text = "x";
+                button6.Text = "5-1";
             }
             if (global.nr_intrebare == 7)
             {
                 button7.Enabled = false;
-                button7.Text = "x";
+                button7.Text = "5-3";
             }
             if (global.nr_intrebare == 8)
             {
                 button8.Enabled = false;
-                button8.Text = "x";
+                button8.Text = "10-6";
             }
             if (global.nr_intrebare == 9)
             {

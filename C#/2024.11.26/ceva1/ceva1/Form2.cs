@@ -24,6 +24,10 @@ namespace ceva1
                 global.f.Close();
                 
             }
+            else
+            {
+                button1.Text = "x";
+            }
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -31,6 +35,10 @@ namespace ceva1
             {
                 global.f.Close();
 
+            }
+            else
+            {
+                button2.Text = "x";
             }
         }
         private void button3_Click(object sender, EventArgs e)
@@ -40,6 +48,10 @@ namespace ceva1
                 global.f.Close();
 
             }
+            else
+            {
+                button3.Text = "x";
+            }
         }
         private void button4_Click(object sender, EventArgs e)
         {
@@ -47,6 +59,10 @@ namespace ceva1
             {
                 global.f.Close();
 
+            }
+            else
+            {
+                button4.Text = "x";
             }
         }
 

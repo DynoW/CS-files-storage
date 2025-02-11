@@ -1,0 +1,44 @@
+# Lectie 2024.12.09
+
+## strcat
+
+char *strcat(chard *d, char *s)
+
+Alatura sirului d, din sirul s
+
+Ex:
+
+char d[100] = "mare", s[100] = "mic";
+
+strcat(d, s); -> d=maremic
+                 s=mic 
+
+
+## strncat
+
+char *strcat(chard *d, char *s, int x)
+
+Alatura primele x caractere sirului d, din sirul s
+
+Ex:
+
+char d[100] = "mate", s[100] = "informatica";
+
+strcat(d, s, 4); -> d=mateinfo
+                    s=informatica
+
+## strcpy - copiere/stergere
+
+char * strcpy(char *d, char *s)
+
+copiere: char s[100] = "mare", d[100]="mic";
+         strcpy(s, d); -> s=mic
+                          d=mic
+
+stergere: char s[]="informatica";
+          strcpy(s+2,s+5); -> inmatica
+          strcpy(s,s+2); -> fornatica
+
+
+
+

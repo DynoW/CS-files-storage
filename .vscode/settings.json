@@ -4,8 +4,13 @@
         "cpp": "clear && g++ -o $dir/$fileNameWithoutExt $fullFileName && $dir/$fileNameWithoutExt; echo"
     },
     "files.associations": {
-        "iostream": "cpp"
+        "*.sqlbook": "sql",
+        "*.ndjson": "jsonl",
+        "*.dbclient-js": "javascript",
+        "*.embeddedhtml": "html",
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "ostream": "cpp"
     },
-    "C_Cpp.clang_format_fallbackStyle": 
-        "{ BasedOnStyle: Google, IndentWidth: 4, TabWidth: 4, AllowShortIfStatementsOnASingleLine: false, ColumnLimit: 0, AccessModifierOffset: -4, SortIncludes: Never, NamespaceIndentation: All, FixNamespaceComments: false }"
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, TabWidth: 4, AllowShortIfStatementsOnASingleLine: false, ColumnLimit: 0, AccessModifierOffset: -4, SortIncludes: Never, NamespaceIndentation: All, FixNamespaceComments: false }"
 }

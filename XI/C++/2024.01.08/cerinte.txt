@@ -1,0 +1,7 @@
+Se citesc date referitoare la elem: nume, m1, m2, m3
+a) Calc med generala a elevului
+b) Ord alfabetic in fct de nume elevi dati
+
+Se citestc numaratorii si numitorii a n fractii
+a) Afis fractiile in forma ireductibila
+b) Afis fractia suma

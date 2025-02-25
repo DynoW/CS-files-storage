@@ -1,0 +1,7 @@
+.git
+*.exe
+main
+ex*[^.cpp]
+sub*[^.cpp]
+tes*[^.cpp]
+20*-*[^.cpp]

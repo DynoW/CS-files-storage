@@ -1,0 +1,27 @@
+[strncpy]
+char*strncpy(char*d,char*d,int x)
+Copiaza in sirul d primele x caractere din sirul s
+
+Ex:
+char d[]="informatic", s[]="matematica";
+strncpy(d,s,4);=>d=matermatica
+strncpy(d+3,s+2,4);=>d=inftematica
+
+[strcat/strncat]
+1)
+char*strcat(char*d,char*s)
+Alatura unui sir un alt sir
+
+Ex:
+char d[100]="mare", s[20]="apa";
+a)strcat(d,s);=>d=mareapa
+b)strcat(d," ");
+strcat(d,s);=>d=mare apa
+
+2)
+char*strncat(char*d,char*s,int x)
+
+Ex:
+char d[100]="mare", s[20]="apa";
+a)strncat(d,s,2);=>d=mareap
+b)strncat(d,s+1,2);=>d=marepa

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1736751727 source:e:\xii\2025.1.13\cojoc a fost aici\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

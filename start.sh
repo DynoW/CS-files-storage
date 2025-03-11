@@ -1,0 +1,1 @@
+code "\\AIC-S2022-1.lan.laicuza.ro\Date Elevi$\XII\C\chirila.daniel"

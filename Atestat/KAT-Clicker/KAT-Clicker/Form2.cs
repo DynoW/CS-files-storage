@@ -18,23 +18,35 @@ namespace KAT_Clicker
         }
         int scor = 0;
         int ct1 = 0;
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
-            pictureBox2.Visible = false;
+            pictureBox4.Visible = false;
             timer1.Enabled = true;
         }
-
+        Random r = new Random();
+        int v = 0;
         private void timer1_Tick(object sender, EventArgs e)
         {
             ct1++;
             if (ct1 >= 4)
             {
-                pictureBox2.Visible = true;
+                pictureBox4.Visible = true;
                 ct1 = 0;
                 timer1.Enabled = false;
+            }
+            if (v == 0)
+            {
+                v = 1;
+                pictureBox3.Location = new Point(350 + r.Next(0,100), 10);
+            }
+            pictureBox3.Location = new Point(pictureBox3.Location.X, pictureBox3.Location.Y+20);
+            if (pictureBox3.Location.Y >= 350)
+            {
+                v = 0;
                 scor++;
                 label1.Text = "Scor: " + scor.ToString();
             }
+                
         }
     }
 }

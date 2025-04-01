@@ -6,5 +6,7 @@
         "*.dbclient-js": "javascript",
         "*.embeddedhtml": "html",
         "iostream": "cpp"
-    }
+    },
+    "editor.formatOnType": false,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, SpacesInParentheses: false }"
 }

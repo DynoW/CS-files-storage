@@ -1,0 +1,7 @@
+char s[]="raton";
+s[1]=s[3];
+cout<<s;
+s=raton
+  01234
+  s=roton
+Ecran: roton

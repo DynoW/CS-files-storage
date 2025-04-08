@@ -1,0 +1,19 @@
+char s[13]="abcdefghoid"
+i=0;
+cout<<strlen(s);
+while (i<strlen(s))
+if (strchr("aeiou",s[i])!=NULL){
+    strcpy(t,s+i+1);
+    strcpy(s+i,t);
+}
+else i++;
+cout<<" "<<s;
+
+s=abcdefghoid
+  012345678910
+  strlen(s)=11
+  while i<11
+  s[0]=a -> t=bcdefghoid
+  s=bcdefghoid
+  i=0 s[0]=b X i=1
+  Ecran: 11 bcdfghd

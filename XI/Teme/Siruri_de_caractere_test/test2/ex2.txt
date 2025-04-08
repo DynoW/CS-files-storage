@@ -1,0 +1,7 @@
+strcpy (a,"bacalaureat");
+for (i=0;i<strlen(a);i++)
+    if(strchr("aeiou",a[i])!=0)
+        cout << '*';
+
+a=bacalaureat
+Ecran: *******

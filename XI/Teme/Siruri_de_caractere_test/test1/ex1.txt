@@ -1,0 +1,21 @@
+int i=0;
+while (i<strlen(s)-1){
+    if (s[i]==s[i+1]){
+    strcpy (t,s+i+1);
+    strcpy (s+i,t);
+    }
+    else i=i+1;
+}
+cout<<s;
+
+s=abacdde{NULL}
+  01234567
+strlen(s)=8
+i<7
+a==b x
+i=1
+b==b       t=bacdde{NULL}
+           s+i=bacdde
+i=1 b==a x
+i=2 a
+ecran abacde

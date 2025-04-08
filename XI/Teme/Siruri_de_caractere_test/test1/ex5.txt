@@ -1,0 +1,15 @@
+strcpy(x, "ExAMeNe NaTiOnALe");
+for(i=0;i<strlen(x);i++)
+    if(x[i]>='A' && x[i]<='N)
+    x[i] = x[i] + 'a'-'A';
+cout << x;
+
+x=ExAMeNe NaTiOnALe
+  01234567890123456
+  strlen(x)=17 
+  for(i=0;i<17;i++)
+  i=0
+  E x[i]=e
+  i=1
+  x[1]=X
+  Ecran: examene naTiOnale

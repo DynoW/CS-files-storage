@@ -1,0 +1,14 @@
+char s[13]="informatica";
+cout<<strlen(s);
+for(i=0;i<strlen(s);i++) {
+if(strchr("aeiou",s[i])!=NULL)
+s[i]='*'; }
+cout<<" "<<s;
+
+s=informatica
+  012345678910
+  strlen(s)=11
+  i=0 i<11 i++
+  i s[i]=* s=*nformatica s=*nf*rm*t*c*
+
+  Ecran: 11 *nf*rm*t*c*

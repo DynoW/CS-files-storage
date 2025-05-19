@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mega")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a67fb96f01d488a1b9afcc0ab9d354a3a1e056db")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mega")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mega")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,6 @@
+cin >> e1.nume >> e1.nota;
+cin >> e2.nume >> e2.nota;
+if(e1.nota >= e2.nota)
+    cout << e1.nume;
+else
+    cout << e2.nume;

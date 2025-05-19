@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1710485023 source:e:\xi\c++\2024.03.15\ex1\main.cpp
+	<iostream>
+	<fstream>
+

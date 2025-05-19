@@ -1,0 +1,17 @@
+strcpy(s,"abracadabra");
+i=0; cout<<strlen(s);
+while (i<strlen(s))
+if(s[i]=='a'){
+strcpy(t,s+i+1);
+strcpy(s+i,t);
+}
+else i=i+1;
+cout<<" "<<s;
+
+s=abracadabra
+  012345678910
+  strlen(s)=11
+  i=0
+  t=bracadabra
+  s=bracadabra
+Ecran: 11 brcdbr

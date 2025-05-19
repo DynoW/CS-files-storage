@@ -1,0 +1,51 @@
+Recursivitate
+
+fact(n) = n!=1*2*3*...*(n-1)*n
+
+fact(n)={fact(n-1)*n,n>0
+	{1          ,n=0
+
+Ex:
+int fact(int n){
+	if(n==0)
+		retrun 1;
+	else
+		return fact(n-1)*n;
+}
+
+int main(){
+	int n;
+	cin >> n;
+	cout << fact(n);
+	return 0;
+}
+
+ITERATIV:
+int fact(int n){
+	int i,p;
+	for(i=0;i<=n;i++){
+		p=p*i;
+	return p;
+}
+
+int main(){
+	int n;
+	cin >> n;
+	cout << fact(n);
+	return 0;
+}
+
+RECURSIV:
+int fact(int n, int i){
+	if(i<=n)
+		return i*fact(n,i+1);
+	else
+		return 1;
+}
+
+int main(){
+	int n;
+	cin >> n;
+	cout << fact(n,1);
+	return 0;
+}

@@ -8,33 +8,15 @@ namespace Mega
 {
     public partial class Form2 : Form
     {
-        private System.Windows.Forms.Timer gameTimer;
         private Ball ball;
         private List<Brick> bricks;
         private int score;
-        private Label scoreLabel;
-        private Random random;
         private bool isBallLaunched;
 
         public Form2()
         {
             InitializeComponent();
-            InitializeScoreLabel();
             InitializeGame();
-        }
-
-        private void InitializeScoreLabel()
-        {
-            scoreLabel = new Label
-            {
-                Location = new Point(this.Width - 160, 10),
-                Size = new Size(140, 30),
-                Text = "Score: 0",
-                ForeColor = Color.Black,
-                BackColor = Color.Transparent,
-                Font = new Font("Arial", 14, FontStyle.Bold)
-            };
-            this.Controls.Add(scoreLabel);
         }
 
         private void InitializeGame()
@@ -44,13 +26,21 @@ namespace Mega
             this.Height = 600;
 
             Point center = new Point(this.Width / 2 - 25, this.Height - 100);
-            ball = new Ball(center, new Size(50, 50));
-            bricks = new List<Brick>();
+
+            if (ball == null)
+                ball = new Ball(center, new Size(50, 50));
+            else
+                ball.ResetPosition(center);
+
+            if (bricks == null)
+                bricks = new List<Brick>();
+            else
+                bricks.Clear();
+
             score = 0;
-            random = new Random();
             isBallLaunched = false;
 
-            scoreLabel.Text = "Score: 0";
+            label1.Text = "Score: 0";
 
             for (int i = 0; i < 5; i++)
             {
@@ -60,13 +50,7 @@ namespace Mega
                 }
             }
 
-            gameTimer = new System.Windows.Forms.Timer();
-            gameTimer.Interval = 20;
-            gameTimer.Tick += GameTimer_Tick;
-            gameTimer.Start();
-
-            this.Paint += Form2_Paint;
-            this.MouseClick += Form2_MouseClick;
+            timer1.Start();
         }
 
         private void Form2_MouseClick(object sender, MouseEventArgs e)
@@ -78,14 +62,14 @@ namespace Mega
             }
         }
 
-        private void GameTimer_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
             if (isBallLaunched)
             {
                 ball.Move();
                 CheckCollisions();
-                this.Invalidate();
             }
+            this.Invalidate();
         }
 
         private void CheckCollisions()
@@ -100,20 +84,17 @@ namespace Mega
                 if (ball.Bounds.IntersectsWith(bricks[i].Bounds))
                 {
                     bricks.RemoveAt(i);
-                    ResetBall();
                     score++;
-                    scoreLabel.Text = $"Score: {score}";
+                    label1.Text = "Score: " + score;
 
                     if (bricks.Count == 0)
                     {
-                        gameTimer.Stop();
+                        timer1.Stop();
                         using (Form3 form3 = new Form3())
                         {
                             if (form3.ShowDialog() == DialogResult.OK)
                             {
-                                DisposeOldGame();
                                 InitializeGame();
-                                InitializeScoreLabel();
                             }
                             else
                             {
@@ -130,38 +111,6 @@ namespace Mega
             Point center = new Point(this.Width / 2 - 25, this.Height - 100);
             ball.ResetPosition(center);
             isBallLaunched = false;
-        }
-
-        private void DisposeOldGame()
-        {
-            if (gameTimer != null)
-            {
-                gameTimer.Stop();
-                gameTimer.Tick -= GameTimer_Tick;
-                gameTimer.Dispose();
-                gameTimer = null;
-            }
-
-            if (bricks != null)
-            {
-                bricks.Clear();
-                bricks = null;
-            }
-
-            if (ball != null)
-            {
-                ball = null;
-            }
-
-            if (scoreLabel != null)
-            {
-                this.Controls.Remove(scoreLabel);
-                scoreLabel.Dispose();
-                scoreLabel = null;
-            }
-
-            this.Paint -= Form2_Paint;
-            this.MouseClick -= Form2_MouseClick;
         }
 
         private void Form2_Paint(object sender, PaintEventArgs e)

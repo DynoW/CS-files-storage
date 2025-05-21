@@ -9,6 +9,14 @@
 *.sln.docstates
 *.userprefs
 
+# Keep VS Code configuration files
+# .vscode/
+
+# CodeBlocks files
+*.cbp
+*.layout
+*.depend
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

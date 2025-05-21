@@ -1,10 +1,59 @@
+# Executable files
 *.exe
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
 
 # Build results
 [Dd]ebug/
+[Dd]ebugPublic/
 [Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
 [Bb]in/
 [Oo]bj/
-*.user
-*.userosscache
-*.suo
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
+
+# Visual Studio IntelliSense and code analysis files
+*.vsidx
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Windows Forms Designer generated code
+# Don't ignore Form*.Designer.cs files as they contain layout code
+# *.Designer.cs
+# !Form*.Designer.cs
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Copilot / AI code assistant files
+**/CopilotIndices/
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

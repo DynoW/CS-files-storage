@@ -1,9 +1,0 @@
-E:\C#\26.09.2024\ceva2\ceva2\bin\Debug\ceva2.exe.config
-E:\C#\26.09.2024\ceva2\ceva2\bin\Debug\ceva2.exe
-E:\C#\26.09.2024\ceva2\ceva2\bin\Debug\ceva2.pdb
-E:\C#\26.09.2024\ceva2\ceva2\obj\Debug\ceva2.Form1.resources
-E:\C#\26.09.2024\ceva2\ceva2\obj\Debug\ceva2.Properties.Resources.resources
-E:\C#\26.09.2024\ceva2\ceva2\obj\Debug\ceva2.csproj.GenerateResource.cache
-E:\C#\26.09.2024\ceva2\ceva2\obj\Debug\ceva2.csproj.CoreCompileInputs.cache
-E:\C#\26.09.2024\ceva2\ceva2\obj\Debug\ceva2.exe
-E:\C#\26.09.2024\ceva2\ceva2\obj\Debug\ceva2.pdb

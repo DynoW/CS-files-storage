@@ -57,7 +57,11 @@ namespace Mega
         {
             if (!isBallLaunched)
             {
-                ball.LaunchTowards(e.Location);
+                Point target = new Point(
+                    e.Location.X - ball.Bounds.Width / 2,
+                    e.Location.Y
+                );
+                ball.LaunchTowards(target);
                 isBallLaunched = true;
             }
         }

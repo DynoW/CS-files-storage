@@ -61,7 +61,7 @@ namespace Mega
                     e.Location.X - ball.Bounds.Width / 2,
                     e.Location.Y
                 );
-                ball.LaunchTowards(target);
+                ball.SetDirection(target);
                 isBallLaunched = true;
             }
         }
@@ -152,11 +152,6 @@ namespace Mega
             int dy = target.Y - Position.Y;
             double distance = Math.Sqrt(dx * dx + dy * dy);
             direction = new Point((int)(dx / distance * speed), (int)(dy / distance * speed));
-        }
-
-        public void LaunchTowards(Point target)
-        {
-            SetDirection(target);
         }
 
         public void Move()

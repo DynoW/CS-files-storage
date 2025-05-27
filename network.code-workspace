@@ -6,11 +6,12 @@
 	],
 	"settings": {
 		"files.associations": {
-			"*.sqlbook": "sql",
-			"*.ndjson": "jsonl",
 			"*.dbclient-js": "javascript",
 			"*.embeddedhtml": "html",
-			"iostream": "cpp"
+			"*.sqlbook": "sql",
+			"*.ndjson": "jsonl",
+			"iostream": "cpp",
+			"iosfwd": "cpp"
 		}
 	}
 }
